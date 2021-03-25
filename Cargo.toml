@@ -1,8 +1,10 @@
 [package]
 name = "macroquad_sample_project"
-version = "0.1.0"
-authors = ["Fedor Logachev <not.fl3@gmail.com>"]
+version = "0.2.9"
+authors = ["ZeroTix"]
 edition = "2018"
 
 [dependencies]
-macroquad = "0.1"
+macroquad = "0.3.0-alpha"
+quad-rand = "0.2.1"
+getrandom = { version = "0.2", features = ["js"] }
